@@ -2,7 +2,7 @@ const request = require('supertest')('http://localhost:5000/api');
 const assert = require('chai').assert;
 
 const movie = { "name": "Marconeitor 3000", "rating": "1", "time": ["1"] }
-const movie2 = { "name": "termineitor 3000", "rating": "1", "time": ["1"] }
+const movie2 = { "name": "3000", "rating": "1", "time": ["1"] }
 let id;
 describe('movies API', () => {
     it('POST /movie', () => {
