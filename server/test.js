@@ -12,7 +12,7 @@ describe('movies API', () => {
     });
     it('POST /movie2', () => {
         return request
-            .post('/movie').send(movie2).expect(201).then((res)=> id=res.body.id)
+            .post('/movie').send(movie2).expect(201)
     });
     it('GET /movie', () => {
         // Make a GET request to the users route 
